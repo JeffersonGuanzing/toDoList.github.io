@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.container {
+  height: 100vh;
+}
+.container .wrapper {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.container .card {
+  width: 50em;
+}
+.container .card .card-title h4 {
+  font-weight: bold;
+}
+.container .card .card-title h4 span {
+  color: purple;
+}
+.container .card .card-title .date {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.container .card .card-title .date p {
+  font-size: 1rem;
+  margin: 0;
+}
+.container .card .card-body .search-container {
+  display: flex;
+  gap: 2em;
+}
+.container .card .card-body .content {
+  display: inline-block;
+}
+.container .card .task-container .task-item {
+  border-bottom: 0.1em solid black;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .card .task-container .task-item #item {
+  text-decoration: underline;
+}
+.container .card .task-container .task-item .button {
+  display: flex;
+  gap: 0.5em;
+}
+.container .card .task-container .task-item .bi-circle {
+  cursor: pointer;
+}
+.container .card .task-container .task-item input {
+  outline: none;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
